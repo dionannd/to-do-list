@@ -6,6 +6,7 @@ const InputContainer = ({
   handleSubmit: (e: FormEvent<HTMLFormElement>, value: string) => void;
 }) => {
   const [newTaskName, setNewTaskName] = useState("");
+
   return (
     <form
       action=""
